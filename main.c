@@ -247,7 +247,7 @@ int main() {
 
         // init things
         BeginDrawing();
-        ClearBackground(LIGHTGRAY);
+        ClearBackground(BLUE);
         DrawRectangleV(game.player.pos, game.player.size, BLACK);
         DrawRectangleV(game.ball.pos, game.ball.size, BLACK);
         char *score_str = malloc(45);
